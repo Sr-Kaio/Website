@@ -1,5 +1,11 @@
 body {
-    background-color: rgb(106, 116, 144);
+    background-color: rgb(43, 45, 50);
     margin: 0;
     text-align: center;
+}
+
+#DefaultText {
+    font-size: 45px;
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+    color: rgb(225, 223, 230);
 }
