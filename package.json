@@ -1,0 +1,19 @@
+{
+  "name": "sr-kaio-website",
+  "version": "1.0.0",
+  "description": "an website that include my portifolio and projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sr-Kaio/Website.git"
+  },
+  "author": "Sr Kaio",
+  "license": "SEE LICENSE IN README.md",
+  "bugs": {
+    "url": "https://github.com/Sr-Kaio/Website/issues"
+  },
+  "homepage": "https://github.com/Sr-Kaio/Website#readme"
+}
