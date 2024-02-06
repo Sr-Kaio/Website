@@ -1,3 +1,3 @@
-include: ["css"]
-include: ["assets"]
-include: ["pages"]
+keep_files: ["css"]
+keep_files: ["assets"]
+keep_files: ["pages"]
