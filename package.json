@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "git add . && git commit -m 'untitled' && git push origin master",
-    "start": "http-server"
+    "start": "http-server -c-1"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Sr-Kaio/Website/issues"
   },
-  "homepage": "https://github.com/Sr-Kaio/Website#readme"
+  "homepage": "https://github.com/Sr-Kaio/Website#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }

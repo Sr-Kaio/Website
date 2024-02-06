@@ -1,14 +1,171 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-body {
-    background-color: #322A37;
+* {
     font-family: 'Montserrat', sans-serif;
 }
 
-.temp {
-    text-align: center; 
-    display: flex; 
+body {
+    background-color: #222124;
+}
+.PCHeader {
+    position: sticky;
+    backdrop-filter: blur(4px);
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     left: 0;
-    right: 0; 
+    right: 0;
+    height: 43px;
+    padding: 5px 13px;
+    margin: 20px;
+    border-radius: 12px;
+    background: #1b1a1d71;
+    transition-duration: 0.3s;
+    visibility: visible;
+}
+
+.MobileHeader {
+    position: fixed;
+    backdrop-filter: blur(4px);
+    box-shadow: 0px -2px 16px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    height: 90px;
+    padding: 13px 13px;
+    margin: 12px 12px 0px;
+    border-radius: 64px 64px 0px 0px;
+    background: #1b1a1d71;
+    transition-duration: 0.3s;
+    visibility: visible;
+}
+
+@media only screen and (min-width: 768px) {
+    .PCHeader {
+        transition-duration: 1s;
+        transform: translateY(0px);
+    }
+    .MobileHeader {
+        transition-duration: 1s;
+        transform: translateY(300px);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .PCHeader {
+        transition-duration: 1s;
+        transform: translateY(-300px);
+    }
+    .MobileHeader {
+        transition-duration: 1s;
+        transform: translateY(0px);
+    }
+}
+
+.PCHeaderButtonUnactivated {
+    border-radius: 12px;
+    height: 32px;
+    width: 80px;
+    border: 2px solid #e3e3e30a;
     color: #E3E3E3;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0);
+    transition-duration: 0.3s;
+}
+
+.PCHeaderButtonUnactivated:hover {
+    border-radius: 12px;
+    height: 32px;
+    width: 80px;
+    border: 2px solid #e3e3e300;
+    color: #E3E3E3;
+    box-shadow: 0px 0px 8px #9173E3;
+    background-color: #9173ff;
+    transform: translateY(-4px);
+}
+
+.PCHeaderButtonUnactivated:active {
+    border-radius: 12px;
+    height: 32px;
+    width: 80px;
+    border: 2px solid #e3e3e300;
+    color: #E3E3E3;
+    box-shadow: 0px 0px 4px #9173e37a;
+    background-color: #8169d8;
+    transform: translateY(-1px);
+}
+
+.PCHeaderButtonActivated {
+    border-radius: 12px;
+    height: 32px;
+    width: 80px;
+    border: 2px solid #e3e3e300;
+    color: #E3E3E3;
+    box-shadow: 0px 0px 8px #9173E3;
+    background-color: #9173ff;
+    transform: translateY(-2px);
+    transition-duration: 0.4s;
+}
+.PCButtonsDiv { background-color: #00000000; }
+
+.PCHeaderButtonActivated:active {
+    border-radius: 12px;
+    height: 32px;
+    width: 80px;
+    border: 2px solid #e3e3e300;
+    color: #E3E3E3;
+    box-shadow: 0px 0px 4px #9173e37a;
+    background-color: #8169d8;
+    transform: translateY(-1px);
+}
+
+
+
+.MobileHeaderButtonUnactivated {
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    border: 2px solid #e3e3e30a;
+    color: #E3E3E3;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0);
+    transition-duration: 0.3s;
+}
+
+
+.MobileHeaderButtonUnactivated:active {
+    box-shadow: 0px 0px 4px #9173e37a;
+    background-color: #8169d8;
+    transform: translateY(2px);
+}
+
+.MobileHeaderButtonActivated {
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    border: 2px solid #e3e3e30a;
+    color: #E3E3E3;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0);
+    transition-duration: 0.3s;
+}
+
+.MobileHeaderButtonActivated:active {
+    box-shadow: 0px 0px 4px #9173e37a;
+    background-color: #8169d8;
+    transform: translateY(-1px);
+}
+
+.MobileHeaderButtonActivated {
+    box-shadow: 0px 0px 8px #9173E3;
+    background-color: #9173ff;
+    transform: translateY(-2px);
+    transition-duration: 0.4s;
 }
