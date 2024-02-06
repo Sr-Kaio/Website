@@ -20,5 +20,8 @@
   "homepage": "https://github.com/Sr-Kaio/Website#readme",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "husky": "^9.0.10"
   }
 }
