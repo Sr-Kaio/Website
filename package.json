@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "git add . && git commit -m 'untitled' && git push origin master",
-    "start": "http-server -c-1"
+    "build": "npx ng serve --prod --aot=false --build-optimizer=true && npx ng build --prod --no-build-optimizer    "
   },
   "repository": {
     "type": "git",
