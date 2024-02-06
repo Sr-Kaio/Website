@@ -1,0 +1,3 @@
+keep_files: ["/css/"]
+keep_files: ["/assets/"]
+keep_files: ["/pages/"]
