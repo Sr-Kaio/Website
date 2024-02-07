@@ -4,6 +4,6 @@ const lenguagePopup = document.getElementById("LanguagePopup")
 const windows = document.getElementById("WindowPopupLen")
 
 function LenguagePopup() {
-    windows.style.margin = "50px"
+    windows.style.transform = "translateY(0px)";
     lenguagePopup.style.visibility = "visible";
 }
