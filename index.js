@@ -1,11 +1,9 @@
 const lenguageButton = document.getElementById("LanguageButton")
 const MlenguageButton = document.getElementById("MobileLanguageButton")
 const lenguagePopup = document.getElementById("LanguagePopup")
+const windows = document.getElementById("WindowPopupLen")
 
-lenguageButton.addEventListener("click", function(){
+function LenguagePopup() {
+    windows.style.margin = "50px"
     lenguagePopup.style.visibility = "visible";
-})
-
-MobileLanguageButton.addEventListener("click", function(){
-    lenguagePopup.style.visibility = "visible";
-})
+}

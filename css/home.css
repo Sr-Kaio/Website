@@ -1,0 +1,64 @@
+.banner {
+    left: 0;
+    right: 0;
+    height: 500px;
+    background-image: url("/assets/Banner.png");
+    padding: 30px 30px 30px 30px;
+}
+
+.primaryButton {
+    border-radius: 12px;
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    border: 2px solid #e3e3e300;
+    color: #E3E3E3;
+    box-shadow: 0px 1px 12px #00000080;
+    background-color: #6136da;
+    transition-duration: 0.3s;
+    margin: 2px;
+}
+
+.primaryButton:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 0px 8px #6136da;
+    background-color: #8c6edd;
+}
+
+.primaryButton:active {
+    
+    transform: translateY(1px);
+    box-shadow: 0px 0px 2px #6136da;
+    background-color: #452796;
+}
+
+.secondaryButton {
+    border-radius: 12px;
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    border: 2px solid #e3e3e300;
+    color: #E3E3E3;
+    box-shadow: 0px 1px 12px #00000080;
+    background-color: #00000000;
+    border: 2px solid #E3E3E3;
+    margin: 4px;
+    transition-duration: .3s;
+}
+
+
+.secondaryButton:hover {
+    border: 0px solid #e3e3e300;
+    transform: translateY(-3px);
+    box-shadow: 0px 0px 8px #E3E3E3;
+    background-color: #E3E3E3;
+    color: #1b1b1b;
+}
+
+.secondaryButton:active {
+    border: 0px solid #e3e3e300;
+    transform: translateY(1px);
+    box-shadow: 0px 0px 2px #E3E3E3;
+    background-color: #E3E3E380;
+    color: #1b1b1b80;
+}
