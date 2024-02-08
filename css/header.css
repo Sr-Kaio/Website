@@ -232,6 +232,7 @@
     left: 0;
     background-color: #00000080;
     backdrop-filter: blur(17px);
+    z-index: 6;
 }
 
 .LenguageSelect {
