@@ -1,0 +1,102 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+.wrap-transform {
+    perspective: 100px;
+    transform-style: preserve-3d;
+    transform-origin: 20% 20%;
+    text-align: center;
+}
+
+.Twitter {
+    transform: rotateX(5deg) translateY(-2px);
+    border-radius: 35%;
+    box-shadow: inset 0px 5px 6px rgba(6, 122, 255, 0.6), 0px 5px 6px rgba(6, 122, 255, 0.6);
+    color: rgba(6, 122, 255);
+    font-size: 50px;
+    background-color: #222124;
+    padding: 10px 15px;
+    perspective: 1000px;
+    perspective-origin: 50% 50%;
+    border: 0px solid #00000000;
+    z-index: 0;
+    transition-duration: 0.5s;
+    margin: 12px;
+}
+
+.Twitter:hover {
+    transform: rotateX(10deg) translateY(-8px);
+    box-shadow: inset 0px 7px 8px rgba(6, 122, 255, 0.6), 0px 12px 12px rgba(6, 122, 255, 0.6);
+    transition-duration: 0.5s;
+}
+
+
+.Twitter:active {
+    transform: rotateX(15deg) translateY(2px) scaleX(1.05) scaleY(0.95);
+    box-shadow: inset 0px 6px 18px rgba(6, 122, 255, 0.6), 0px 6px 18px rgba(6, 122, 255, 0.6);
+    transition-duration: 0.2s;
+    background-color: #211533;
+}
+
+
+
+
+.Youtube {
+    margin: 12px;
+    transform: rotateX(5deg) translateY(-2px);
+    border-radius: 35%;
+    box-shadow: inset 0px 5px 6px rgba(255, 6, 6, 0.6), 0px 5px 6px rgba(255, 6, 6, 0.6);
+    color: rgb(255, 6, 6);
+    font-size: 50px;
+    background-color: #222124;
+    padding: 10px 15px;
+    perspective: 1000px;
+    perspective-origin: 50% 50%;
+    border: 0px solid #00000000;
+    z-index: 0;
+    transition-duration: 0.5s;
+}
+
+.Youtube:hover {
+    transform: rotateX(10deg) translateY(-8px);
+    box-shadow: inset 0px 7px 8px rgba(255, 6, 6, 0.6), 0px 12px 12px rgba(255, 6, 6, 0.6);
+    transition-duration: 0.5s;
+}
+
+
+.Youtube:active {
+    transform: rotateX(15deg) translateY(2px) scaleX(1.05) scaleY(0.95);
+    box-shadow: inset 0px 6px 18px rgba(255, 6, 6, 0.6), 0px 6px 18px rgba(255, 6, 6, 0.6);
+    transition-duration: 0.2s;
+    background-color: #331515;
+}
+
+
+.Instagram {
+    margin: 12px;
+    transform: rotateX(5deg) translateY(-2px);
+    border-radius: 35%;
+    box-shadow: inset 0px 5px 6px rgba(214, 6, 255, 0.6), 0px 5px 6px rgba(255, 147, 6, 0.6);
+    color: rgb(255, 147, 6);
+    font-size: 50px;
+    background-color: #222124;
+    padding: 10px 15px;
+    perspective: 1000px;
+    perspective-origin: 50% 50%;
+    border: 0px solid #00000000;
+    z-index: 0;
+    transition-duration: 0.5s;
+}
+
+.Instagram:hover {
+    transform: rotateX(10deg) translateY(-8px);
+    box-shadow: inset 0px 7px 8px rgba(214, 6, 255, 0.6), 0px 12px 12px rgba(255, 147, 6, 0.6);
+    transition-duration: 0.5s;
+}
+
+
+.Instagram:active {
+    transform: rotateX(15deg) translateY(2px) scaleX(1.05) scaleY(0.95);
+    box-shadow: inset 0px 6px 18px rgba(214, 6, 255, 0.6), 0px 6px 18px rgba(255, 147, 6, 0.6);
+    transition-duration: 0.2s;
+    background-color: #152533;
+}
